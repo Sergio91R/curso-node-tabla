@@ -1,6 +1,6 @@
 #notas:
 
-este es mi prome programa en Node
+este es mi primer programa en Node
 
 ```
       --help     Muestra ayuda                                        [booleano]
