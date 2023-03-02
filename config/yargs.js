@@ -12,7 +12,7 @@ const argv = require('yargs')
         type: 'boolean',
         demandOption: true,
         default: false,
-        describe:'la base tiene que ser un numero'
+        describe:'Muestra la tabla en persona'
     })
     .option('h',{
         alias: 'Hasta',
@@ -23,7 +23,7 @@ const argv = require('yargs')
     )
     .check((argv, options) => {
         if (isNaN(argv.b)) {
-            throw 'la base tiene que ser un numerio'
+            throw 'la base tiene que ser un numero'
         }
         return true;
     })
